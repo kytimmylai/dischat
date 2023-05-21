@@ -70,6 +70,10 @@ class DisChat(discord.Client):
         if message.author == self.user:
             return
         
+        if message.content == "Obliviate":
+            self._reset_prompt()
+            return
+
         res = self._gpt(message.content)
         await message.reply(res)
 

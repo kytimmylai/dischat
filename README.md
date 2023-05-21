@@ -1,6 +1,7 @@
 # dischat
 An easy bot that supports Openai API to query gpt3.5 on your own discord server.
 If you are finding a way to set up a slash command, I implement it in another way you may want to know.
+As a discord user, integrating everything together makes the experience better for me. (Here we have gpt and dall so far; others are still trimming and sorting out. Stay tuned.)
 <p align="center">
 <img src="myfriend.png" width=50% height=50% 
 class="center">
@@ -17,14 +18,25 @@ cd disbot
 pip install -r requirements.txt
 ```
 
-### Key
+### Create Bot
+
+There are tutorials elsewhere guiding you on how to create and invite a bot.
+Or you can wait for my update.
+
+Invite your bot with a URL that is generated in OAuth2->General->Scope: bot, Bot permissions: Admin
+Type the URL in where the server is, and then it will show up
+
+### Set up Key
 Remember to [Discord dev page](https://discord.com/developers/applications) and [Openai](https://platform.openai.com/account/api-keys) set your own key and paste in key.csv
 
 ### Activate Bot
 ```
 python disbot.py
 ```
-Now your bot is online! But the slash command may not show up right away.
+Now your bot is online! The slash command may not show up right away, be patient.
+But you can type and bot will reply a gpt3.5 output.
+
+Type Obliviate to reset the chat history if you want to change the subject. The word has the magic power to erase memory from gpt.
 
 ## Demo
 
