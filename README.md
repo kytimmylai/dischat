@@ -1,7 +1,10 @@
 # dischat
 An easy bot that supports Openai API to query gpt3.5 on your own discord server.
 If you are finding a way to set up a slash command, I implement it in another way you may want to know.
-As a discord user, integrating everything together makes the experience better for me. (Here we have gpt and dall so far; others are still trimming and sorting out. Stay tuned.)
+As a discord user, integrating everything together makes the experience better for me. 
+Here we have gpt and dall so far; others are still trimming and sorting out.(They are too messed up to be shown to everyone) 
+I plan to release an app_commands.Group version with more integration after a long long long future. TBA, Stay tuned.
+
 <p align="center">
 <img src="myfriend.png" width=50% height=50% 
 class="center">
