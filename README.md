@@ -4,14 +4,27 @@ If you are finding a way to set up a slash command, I implement it in another wa
 
 
 ## Startup
+
+### Build Environment
 ```
+git clone https://github.com/kytimmylai/dischat.git
 conda create --name dischat python=3.9
 conda activate dischat
+cd disbot
 pip install -r requirements.txt
 ```
 
+### Key
+Remember to [Discord dev page](https://discord.com/developers/applications) and [Openai](https://platform.openai.com/account/api-keys) set your own key and paste in key.csv
+
+### Activate Bot
+```
+python disbot.py
+```
+Now your bot is online! But the slash command may not show up right away.
+
 ## Demo
 <p align="center">
-<img src="demo.png" width=100% height=100% 
+<img src="demo.png" width=70% height=70% 
 class="center">
 </p>
